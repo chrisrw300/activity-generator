@@ -1,8 +1,59 @@
 * {
-    margin: 20px;
+    margin: 0;
     padding: 0;
 }
 
 body {
     background: lightblue;
+    margin: 0 150px;
+}
+
+/* || Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4vw;
+}
+
+header p {
+    font-size: 2vw;
+}
+
+header h1, header p {
+    margin: 0;
+}
+
+/* || Main */
+main {
+    text-align: center;
+}
+
+#activity {
+    height: 100px;
+    background: white;
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.5vw;
+}
+
+.button {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#btn {
+    padding: 15px 75px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
 }
