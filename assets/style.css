@@ -5,8 +5,10 @@
 }
 
 body {
-    background: lightblue;
-    margin: 0 150px;
+    background-image: url('./img/bg.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* || Header */
@@ -19,10 +21,10 @@ header h1 {
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
-}
-
-header h1, header p {
-    margin-top: 5px;
+    margin-top: 0;
+    padding: 15px 0;
+    color: white;
+    background: black;
 }
 
 /* || Main */
@@ -31,16 +33,40 @@ main {
 }
 
 #activity {
-    height: 250px;
+    height: 225px;
+    width: 50%;
     background: white;
-    margin: 40px 0;
+    margin: 40px auto;
     padding: 30px;
     border-radius: 15px;
     font-size: 1.5vw;
 }
 
-#movie-title, #movie-dinner, #movie-dessert, #movie-drink, #movie-game {
-    margin: 5px 0;
+.titles {
+    font-size: 1vw;
+    border-bottom: thin solid blue;
+    width: 15%;
+    margin: 5px auto;
+    display: none;
+}
+
+#movie-title, #dinner-title, #dessert-title, #drink-title, #game-title {
+    padding: 10px 0;
+    cursor: default;
+}
+
+#dinner-title:hover, #dessert-title:hover, #drink-title:hover, #game-title:hover {
+    font-size: 1.7vw;
+    transition: 0.3s;
+} 
+
+#movie-title {
+    font-size: 2.2vw;
+}
+
+#movie-title:hover {
+    font-size: 2.5vw;
+    transition: 0.3s;
 }
 
 .button {
@@ -60,4 +86,14 @@ main {
 #btn:hover {
     transform: translateY(-5px);
     cursor: pointer;
+}
+
+/* || Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    background: black;
 }
