@@ -1,13 +1,10 @@
-// Array
-var activitiesList = ["wow", "wowie", "cats"];
-
 // Variables
-let btn = document.querySelector("#btn");
+let btn = document.getElementById('btn');
 
 // Print to Document
-function startPrint() {
-    alert('hello');
+function fetchData() {
+    alert('hi');
 }
 
 // Button 
-btn.addEventListener("click", startPrint);
+btn.addEventListener('click', fetchData);
