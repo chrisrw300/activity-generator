@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -15,14 +16,13 @@ header {
 
 header h1 {
     font-size: 4vw;
-}
-
-header p {
-    font-size: 2vw;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
 header h1, header p {
-    margin: 0;
+    margin-top: 5px;
 }
 
 /* || Main */
@@ -31,12 +31,16 @@ main {
 }
 
 #activity {
-    height: 100px;
+    height: 250px;
     background: white;
     margin: 40px 0;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     font-size: 1.5vw;
+}
+
+#movie-title, #movie-dinner, #movie-dessert, #movie-drink, #movie-game {
+    margin: 5px 0;
 }
 
 .button {

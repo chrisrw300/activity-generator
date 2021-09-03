@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "movie": "Luca",
+        "movie1": "Luca",
         "dinner": "Pesto Pasta with Green Beans and Potatoes",
         "dessert": "Gelato and Swedish Fish",
         "drink": "Sprite Vodka with Blue Food Coloring",
@@ -61,7 +61,7 @@
         "dinner": "Pulled Pork Fries",
         "dessert": "Black Forest Cake",
         "drink": "Pineapple Juice, Sprite, Vodka, Blue Food Coloring",
-        "game": "Scattergories "
+        "game": "Scattergories"
     },
     {
         "id": "9",
@@ -109,7 +109,7 @@
         "dinner": "Fish and Chips",
         "dessert": "Turtle Chocolates",
         "drink": "Malibu, Lime, Pineapple Juice, Swedish Fish",
-        "game": "Go Fissh"
+        "game": "Go Fish"
     },
     {
         "id": "15",
