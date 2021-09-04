@@ -3,7 +3,7 @@ const movie1 = {
     "movie": "Luca",
     "dinner": "Pesto Pasta with Green Beans and Potatoes",
     "dessert": "Gelato and Swedish Fish",
-    "drink": "Sprite Vodka with",
+    "drink": "Sprite Vodka with Blue Food Coloring",
     "game": "Ticket to Ride"
 }
 const movie2 = {
